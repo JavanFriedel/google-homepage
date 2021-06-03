@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div id="madeby">
+            <h2>Made by: Javan Friedel</h2>
+        </div>
+        <div>
+            <ul id="mainnav">
+                <li><a href="index.html">Google Search</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <div id="advancedwrap">
+            <label>Advanced Search</label>
+        </div>
+
+        <div class="hrule"></div>
+
+        <div class="form">
+            <form action="https://www.google.com/search">
+                <div class="headers">
+                    <div class="header-find">Find pages with...</div>
+                    <div class="header-blank">&nbsp;</div>
+                    <div class="header-sub">To do this in the search box.</div>
+                </div>
+
+                <div class="adv-form">
+                    <div class="adv-row">
+                        <div class="adv-left">all these words:</div>
+                        <div class="adv-middle"><input class="textInput" type="text" name="as_q"></div>
+                        <div class="right">Type the important words: tri-colour rat terrier</div>
+                    </div>
+
+                    <div class="adv-row">
+                        <div class="adv-left">this exact word or phrase:</div>
+                        <div class="adv-middle"><input class="textInput" type="text" name="as_epq"></div>
+                        <div class="right">Put exact words in quotes: "rat terrier"</div>
+                    </div>
+
+                    <div class="adv-row">
+                        <div class="adv-left">any of these words:</div>
+                        <div class="adv-middle"><input class="textInput" type="text" name="as_oq"></div>
+                        <div class="right">Type OR between all the words you want: miniature OR standard</div>
+                    </div>
+
+                    <div class="adv-row">
+                        <div class="adv-left">none of these words:</div>
+                        <div class="adv-middle"><input class="textInput" type="text" name="as_eq"></div>
+                        <div class="right">Put a minus sign just before words that you don't want:<br> -rodent, -"Jack Russell"</div>
+                    </div>
+
+                    <div class="adv-row">
+                        <div class="adv-left">numbers ranging from:</div>
+                        <div class="adv-middle">
+                            <div class="custTable">
+                                <div class="tableC"><input class="textInput" type="text" name="as_n1o"></div>
+                                <div class="tableM">to</div>
+                                <div class="tableC"><input class="textInput" type="text" name="as_nhi"></div>
+                            </div>
+                        </div>
+                        <div class="right">Put two full stops between the numbers and add a unit of measurement: 10..35 kg, £300..£500, 2010..2011</div>
+                    </div>
+
+                    <div class="adv-row">
+                        <div class="adv-left">&nbsp;</div>
+                        <div class="adv-middle">
+                            <input class="advanSubmit" type="submit" value="Advanced Search">
+                        </div>
+                        <div class="right">&nbsp;</div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
